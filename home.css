@@ -1,0 +1,92 @@
+
+
+*{
+    box-sizing: border-box;
+    list-style: none;
+    background-color:rgb(233, 232, 227)
+}
+header{
+    padding: 100px;
+    text-align: center;
+    
+}
+svg{
+    text-align: center;
+}
+    h1{
+       
+    font-size: 42px;
+    font-family: 'Calibiri';
+    color: black;
+    background-color: rgb(224, 243, 140);
+    text-align: center;
+}
+
+
+#navbar{
+    
+    text-decoration: none;
+    text-align: center;
+    height:58px;
+}
+
+#navbar ul{
+   
+    display: flex;
+    opacity: 5.4;
+}
+
+#navbar ul li {
+    
+    list-style : none;
+    font-size: 1.3rem;
+    font-family: 'Arial',cursive;
+}
+
+#navbar ul li a{
+    
+    color:black;
+    display: block;
+    padding: 1px 40px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+#navbar ul li a:hover{
+    color: white;
+    background-color: burlywood;
+}
+
+section{
+    
+    padding: 33px;
+    text-align: center;
+    overflow: hidden;
+    background-color: rgb(231, 230, 158);
+}
+section h2{
+    color: rgb(70, 51, 5);
+    padding: 0px 16px;
+    font-family: 'Bree Serif','Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h2{
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+    
+
+footer{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    overflow: hidden;
+    background-color: black;
+   
+    font-size: small;
+}
+footer h4{
+    
+    color: white;
+    text-decoration: none;
+    
+    float :left ;
+   
+}
